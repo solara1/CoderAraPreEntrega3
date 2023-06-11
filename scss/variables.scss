@@ -1,0 +1,44 @@
+
+/*Color PaleT*/
+$base-color:#fff;
+$primary-color: #6230a3;
+$accent-color: #FEC200;
+$random-color: #000;
+
+/* Fonts Size */
+$main-font:'IBM Plex Sans', sans-serif;
+$small-font: 20px;
+$medium-font: 40px;
+$large-font: 60px;
+
+/* Screen Resolution */
+$tablet: 768px ;
+$desktop: 992px ;
+$desktopXG: 1200px ;
+
+/*Margin & Padding*/
+$space-min: 10px;
+$space-small: 20px;
+$space-medium: 40px;
+$space-large: 60 px;
+
+/*Mixins*/
+@mixin flex-column-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Extend*/
+.boton {
+    color: $base-color;
+    background-color:$accent-color;
+    border: none;
+    border: $accent-color;
+    border-radius: 8px;
+    &:hover {
+        background-color:$primary-color;
+    }
+    
+}

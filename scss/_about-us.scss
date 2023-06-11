@@ -1,0 +1,13 @@
+.container-text {
+    @include flex-column-center;
+    gap: $space-min;
+    background-color: none;
+    }
+@media (min-width: $tablet) {
+    .container-text {
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      align-items: center;
+      justify-content: center;
+    }
+}

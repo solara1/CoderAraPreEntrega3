@@ -1,0 +1,82 @@
+/*Global Styles*/
+
+body {
+    font-family: $main-font;
+    color: $base-color;
+    background-color: $primary-color;
+    text-align: center;
+}
+.navbar-brand img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100px;
+}
+.navbar-brand,.nav-link, nav.active, 
+.navbar-nav .nav-link.active  {
+    color: $base-color;
+    &:hover {
+        color: $accent-color;
+    }
+}
+
+.navbar-toggler-icon {
+    color: $base-color;
+}
+
+.carousel-item, 
+.carousel-item.active img {
+    height: 100%;
+}
+@media (mind-width:$tablet){
+    .carousel-item, 
+    .active img {
+        height: 60vh;
+}
+}
+@media (mind-width:$desktop){
+    .carousel-item, 
+    .active img {
+        height: 60vh;
+}
+}
+
+h1,h2,h3 {
+color: $accent-color;
+margin: $space-medium;
+text-align: center;
+}
+
+h4,h5 {
+    color: $accent-color;
+    margin: $space-medium;
+}
+
+p {
+    color: $base-color;
+    text-align: center;
+    margin: $space-medium;
+}
+
+.boton {
+    @extend.boton
+    
+}
+
+footer {
+    margin-top: $space-large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .social-media a {
+        text-decoration: none;
+        color: $primary-color;
+        max-width: 100%;
+    .social { 
+        width: 40px;
+        height: 40px;
+        color: $base-color;
+    } 
+    }
+}
+
+

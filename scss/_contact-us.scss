@@ -1,0 +1,15 @@
+.form {
+@include flex-column-center;
+gap: $space-min;
+background-color: none;
+}
+.form-label{
+color: $accent-color;
+font-size:$small-font;
+}
+
+.boton {
+    @extend .boton
+}
+
+

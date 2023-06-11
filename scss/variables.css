@@ -1,0 +1,16 @@
+/*Color PaleT*/
+/* Fonts Size */
+/* Screen Resolution */
+/*Margin & Padding*/
+/*Mixins*/
+/*Extend*/
+.boton {
+  color: #fff;
+  background-color: #FEC200;
+  border: none;
+  border: #FEC200;
+  border-radius: 8px;
+}
+.boton:hover {
+  background-color: #6230a3;
+}/*# sourceMappingURL=variables.css.map */

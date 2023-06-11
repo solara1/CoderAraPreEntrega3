@@ -1,0 +1,25 @@
+.padre-services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: $space-min;
+    background-color: none;
+    }
+
+@media (min-width:$tablet) {
+      .padre-services {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          grid-template-rows: repeat(2, 1fr);
+          justify-items: center;
+          gap: 30px;
+      }
+  }
+
+.image-icon {
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+}
