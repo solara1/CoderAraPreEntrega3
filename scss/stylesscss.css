@@ -42,7 +42,7 @@ body {
   color: #fff;
 }
 
-.carousel-item,
+.carousel-inner, .carousel-item,
 .carousel-item.active img {
   height: 100%;
 }
@@ -56,7 +56,7 @@ body {
 @media (mind-width: 992px) {
   .carousel-item,
   .active img {
-    height: 60vh;
+    height: 40vh;
   }
 }
 h1, h2, h3 {

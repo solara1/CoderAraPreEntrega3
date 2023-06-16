@@ -1,0 +1,12 @@
+
+
+    @media (mind-width:$tablet){
+        .yapay-title {
+          font-size: $small-font ;
+    }
+    @media (mind-width:$desktop) {
+        .yapay-title {
+            font-size: $medium-font ;
+        }
+    }
+}
