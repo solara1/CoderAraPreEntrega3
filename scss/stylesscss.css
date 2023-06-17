@@ -56,7 +56,7 @@ body {
 @media (mind-width: 992px) {
   .carousel-item,
   .active img {
-    height: 40vh;
+    height: 60vh;
   }
 }
 h1, h2, h3 {
@@ -145,6 +145,10 @@ footer .social-media a .social {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+.img card-img-top {
+  border-radius: 8 px;
+}
+
 .padre-services {
   display: flex;
   flex-direction: column;
@@ -189,5 +193,19 @@ footer .social-media a .social {
 @media (min-width: 992px) {
   .card-padre {
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+.img card-img-top {
+  border-radius: 8 px;
+}
+
+@media (mind-width: 768px) {
+  .yapay-title {
+    font-size: 20px;
+  }
+}
+@media (mind-width: 768px) and (mind-width: 992px) {
+  .yapay-title {
+    font-size: 40px;
   }
 }/*# sourceMappingURL=stylesscss.css.map */
