@@ -15,6 +15,7 @@
   background-color: #6230a3;
 }
 
+/*sol*/
 /*Global Styles*/
 body {
   font-family: "IBM Plex Sans", sans-serif;
@@ -44,19 +45,24 @@ body {
 
 .carousel-inner, .carousel-item,
 .carousel-item.active img {
+  width: 100%;
   height: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (mind-width: 768px) {
   .carousel-item,
-  .active img {
+  .active img,
+  .d-block w-100 {
     height: 60vh;
   }
 }
 @media (mind-width: 992px) {
   .carousel-item,
-  .active img {
-    height: 60vh;
+  .active img,
+  .d-block w-100 {
+    height: 30vh;
   }
 }
 h1, h2, h3 {
@@ -124,6 +130,17 @@ footer .social-media a .social {
     justify-content: center;
   }
 }
+.ccarousel-inner {
+  display: block;
+  width: 100%;
+  height: 200px;
+}
+
+.carousel-item active, carousel-item {
+  height: 100%;
+  width: 100%;
+}
+
 .card-padre {
   display: flex;
   flex-direction: column;

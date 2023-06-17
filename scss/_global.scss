@@ -25,18 +25,23 @@ body {
 
 .carousel-inner,.carousel-item, 
 .carousel-item.active img {
+    width: 100%;
     height: 100%;
+    justify-content: center;
+    align-items: center;
 }
 @media (mind-width:$tablet){
     .carousel-item, 
-    .active img {
+    .active img,
+    .d-block w-100 {
         height: 60vh;
 }
 }
 @media (mind-width:$desktop){
     .carousel-item, 
-    .active img {
-        height: 60vh;
+    .active img,
+    .d-block w-100 {
+      height: 30vh;
 }
 }
 
